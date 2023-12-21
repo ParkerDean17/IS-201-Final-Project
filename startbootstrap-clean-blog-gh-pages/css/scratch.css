@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(153, 252, 252);
+    background-size: cover;
+}
+img{
+    border: 2px solid black;
+    padding: 2px;
+    width: 50%;
+}
+.centerme{
+    display: block;
+    margin: auto;
+}
+ol{
+    color: rgb(13, 0, 131);
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    color: rgb(3, 87, 197);
+    font-family:'Courier New', Courier, monospace
+}
+.footer{
+    z-index: 1;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    display: block;
+    text-align: center;
+    background-color: blue;
+    color: azure;
+}
